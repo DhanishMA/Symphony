@@ -8,6 +8,11 @@
     src: url('/assets/fonts/Trispace/Trispace-VariableFont_wdth\,wght.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
 body {
     /* background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%); */
     /* background-image: url('/assets/bgImage.jpg') ; */
@@ -27,6 +32,27 @@ h2 {
 h1 {
     font-family: 'Trispace';
     font-weight: 400;
+    font-size: 58px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.HeroContent p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    border-radius: 12%;
+    border: none;
+    min-width: 120px;
 }
 
 .Bar{
@@ -57,7 +83,7 @@ h1 {
 }
 
 .AppContainer {
-    background-color: brown;
+    /* background-color: brown; */
     height: 100vh;
     overflow: visible;
 }
@@ -89,7 +115,12 @@ h1 {
 }
 
 .HeroContent{
+    padding-top: 15px;
     width: 350px;
+}
+
+.HeroImage{
+    width : 550px;
 }
 
 .NowPlaying {
