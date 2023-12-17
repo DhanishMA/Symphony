@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trispace';
+    src: url('/assets/fonts/Trispace/Trispace-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+body {
+    /* background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%); */
+    /* background-image: url('/assets/bgImage.jpg') ; */
+    color: #25313C;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+
+}
+
+h1 {
+    font-family: 'Trispace';
+    font-weight: 400;
+}
+
+.Bar{
+    /* background-color: aqua; */
+    height: 30;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.Bar.Nav{
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+
+.Bar.Tab{
+    position: fixed;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.AppContainer {
+    /* background-color: brown; */
+    height: 100vh;
+    overflow: visible;
+}
+
+.ContentHolder {
+    /* background-color: blue; */
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.ContentPadding {
+    padding: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MainContent{
+    overflow: hidden;
+    width: 70%;
+}
+
+.Hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeroContent{
+    width: 350px;
+}
+
+.NowPlaying {
+    /* background-color: blueviolet; */
+    /* border-radius: 12px; */
+    overflow: hidden; 
+    height: 80vh;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    left: auto;
+    right: 60px;
+    width: 25%;
+    padding: 15px;
+}
+
+.PlayerControllerBackboard {
+    height: 30%;
+    width: 100%;
+    margin-left: -15px;
+    /* background-color: red; */
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+}
+
+.PlayerControllerContainer {
+    height: 80%;
+    width: 90%;
+    background-color: #25313C;
+    border-radius: 12px;
+    margin: 5%;
+
+}
+
+.SongList {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.CardFlexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 30px;
+}
+
+.SongSlip {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 30px;
+    padding-bottom: 15px;
+}
+
+
+
+
