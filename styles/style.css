@@ -57,7 +57,7 @@ h1 {
 }
 
 .AppContainer {
-    /* background-color: brown; */
+    background-color: brown;
     height: 100vh;
     overflow: visible;
 }
@@ -83,6 +83,7 @@ h1 {
 }
 
 .Hero {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
