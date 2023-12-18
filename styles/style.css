@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Space Grotesk';
-    src: url('/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wdth_wght.ttf') format('truetype');
+    src: url('../assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wdth_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Trispace';
-    src: url('/assets/fonts/Trispace/Trispace-VariableFont_wdth_wght.ttf') format('truetype');
+    src: url('../assets/fonts/Trispace/Trispace-VariableFont_wdth_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
 }
 
 body {
@@ -30,7 +30,7 @@ h2 {
 }
 
 h1 {
-    font-family: 'Trispace';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 58px;
     margin-bottom: 15px;
@@ -52,7 +52,7 @@ button {
     padding: 12px;
     font-family: 'Poppins';
     font-weight: 400;
-    border-radius: 12%;
+    border-radius: 12px;
     border: none;
     min-width: 120px;
 }
@@ -90,6 +90,10 @@ button {
     left: 50%;
     right: 0%;
     transform: translateX(-50%);
+}
+
+.Bar.Tab img{
+    height: 24px;
 }
 
 
