@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="scripts/script.js" defer></script>
         <title>Symphony</title>
         <link rel="stylesheet" href="styles/style.css">
+        
     </head>
     <body>
         <div class="AppContainer">
@@ -24,7 +26,7 @@
                                 <button>Play Now</button>
                             </div>
                             <!-- home page image -->
-                            <img class="HeroImage" src="assets/Image.png" alt="Hero image" >
+                            <img src="assets/Image.png" alt="Hero image" >
                         </div>
                         <!-- plalists -->
                         <div style="margin-top: 60px;">
@@ -53,7 +55,7 @@
                 </div>
             </div>
             <!-- this lists the current queue of songs to play -->
-            <!-- <div class="NowPlaying">
+            <div id="NowPlayingDiv" class="NowPlaying">
                 <h2>Now playing</h2>
                 <div style="height: 85%;">
                     <div class="SongList">
@@ -105,13 +107,13 @@
                             <p>Song_name</p>
                             <p>desc</p>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- palyer controller -->
-                    <!-- <div class="PlayerControllerBackboard">
+                    <div class="PlayerControllerBackboard">
                         <div class="PlayerControllerContainer"></div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div class="Tab Bar">
                 <a href=""> <img src="assets/TabBarIcons/add-list.png">  </a>
                 <a href=""> <img src="assets/TabBarIcons/approve.png" >  </a>
@@ -119,6 +121,7 @@
                 <a href=""> <img src="assets/TabBarIcons/group.png" >    </a>
                 <a href=""> <img src="assets/TabBarIcons/musical.png" >  </a>
                 <a href=""> <img src="assets/TabBarIcons/playlist.png" > </a>
+                <div id="NowPlayingButton"><img src="assets/TabBarIcons/play.png" ></div>
             </div>
         </div>
     </body>

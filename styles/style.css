@@ -50,6 +50,7 @@ p {
 
 button {
     padding: 12px;
+    background-color: #B6DDD8;
     font-family: 'Poppins';
     font-weight: 400;
     border-radius: 12px;
@@ -120,7 +121,6 @@ button {
 
 .MainContent{
     overflow: hidden;
-    width: 70%;
 }
 
 .Hero {
@@ -129,18 +129,19 @@ button {
     justify-content: center;
 }
 
+.Hero img {
+    width: 70%;
+}
 .HeroContent{
     padding-top: 15px;
-    width: 350px;
+    width: 30%;
 }
 
-.HeroImage{
-    width : 550px;
-}
 
 .NowPlaying {
-    /* background-color: blueviolet; */
-    /* border-radius: 12px; */
+    display: none;
+    background-color: blueviolet;
+    border-radius: 12px;
     overflow: hidden; 
     height: 80vh;
     position: fixed;
@@ -149,7 +150,7 @@ button {
     bottom: auto;
     left: auto;
     right: 60px;
-    width: 25%;
+    width: 30%;
     padding: 15px;
 }
 
