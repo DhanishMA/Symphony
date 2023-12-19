@@ -43,11 +43,6 @@ p {
     margin-top: 5px;
 }
 
-.HeroContent p{
-    font-size: 14px;
-    margin-bottom: 30px;
-}
-
 button {
     padding: 12px;
     background-color: #B6DDD8;
@@ -103,57 +98,24 @@ button {
 
 .AppContainer {
     /* background-color: brown; */
-    height: 100vh;
+    min-height: 100vh;
     overflow: visible;
 }
 
-.ContentHolder {
-    /* background-color: blue; */
-    width: 100vw;
-    height: 100vh;
-    overflow-y: scroll;
-}
-
-.ContentPadding {
-    padding: 90px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.MainContent{
-    overflow: hidden;
-}
-
-.Hero {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.Hero img {
-    width: 70%;
-}
-.HeroContent{
-    padding-top: 15px;
-    width: 30%;
-}
-
-
 .NowPlaying {
     display: none;
-    background-color: blueviolet;
+    background-color: rgba(255, 255, 255, 0.397);
+    filter: blur();
     border-radius: 12px;
-    overflow: hidden; 
-    height: 80vh;
+    overflow: hidden;
+    height: 430px;
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
     bottom: auto;
     left: auto;
     right: 60px;
-    width: 30%;
+    width: 320px;
     padding: 15px;
 }
 
@@ -166,7 +128,7 @@ button {
     height: 30%;
     width: 100%;
     margin-left: -15px;
-    /* background-color: red; */
+    background-color: rgba(255, 0, 0, 0.288);
     position: absolute;
     top: auto;
     bottom: 0%;
@@ -175,7 +137,7 @@ button {
 .PlayerControllerContainer {
     height: 80%;
     width: 90%;
-    background-color: #25313C;
+    background-color: #25313c6b;
     border-radius: 12px;
     margin: 5%;
 
@@ -184,13 +146,6 @@ button {
 .SongList {
     height: 70%;
     overflow-y: scroll;
-}
-
-.CardFlexbox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    column-gap: 30px;
 }
 
 .SongSlip {
