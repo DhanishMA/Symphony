@@ -13,9 +13,34 @@
     src: url('../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
 }
 
+
+@keyframes slide-out {
+    from {
+        transform: translate(100%, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0%, -50%);
+        opacity: 100;
+    }
+  }
+
+@keyframes slide-in {
+    from {
+        transform: translate(0%, -50%);
+        opacity: 100;
+    }
+    to {
+        transform: translate(100%, -50%);
+        opacity: 0;
+    }
+}
+
+
 body {
     background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%);
-    /* background-image: url('/assets/bgImage.jpg') ; */
+    /* background-color: #EEA8A7; */
+    /* background-color: #B6DDD8; */
     color: #25313C;
     overflow: hidden;
     margin: 0px;
@@ -92,8 +117,14 @@ button {
     height: 24px;
 }
 
+.Bar.Tab div{
+    transition: all;
+    transition-duration: 350ms;
+}
+
 .Bar.Tab div:hover {
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .AppContainer {
@@ -104,19 +135,26 @@ button {
 
 .NowPlaying {
     display: none;
-    background-color: rgba(255, 255, 255, 0.397);
+    background-color: antiquewhite;
     filter: blur();
     border-radius: 12px;
     overflow: hidden;
     height: 430px;
     position: fixed;
     top: 50%;
-    transform: translateY(-50%);
     bottom: auto;
     left: auto;
     right: 60px;
     width: 320px;
     padding: 15px;
+}
+
+.SlideOut{
+    animation: slide-in 0.5s forwards;
+}
+
+.SlideIn{
+    animation: slide-out 0.5s forwards;
 }
 
 .NowPlaying p {
@@ -128,7 +166,7 @@ button {
     height: 30%;
     width: 100%;
     margin-left: -15px;
-    background-color: rgba(255, 0, 0, 0.288);
+    background-color: antiquewhite;
     position: absolute;
     top: auto;
     bottom: 0%;
