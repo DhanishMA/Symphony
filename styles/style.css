@@ -97,6 +97,9 @@ button {
     height: 24px;
 }
 
+.Bar.Tab div:hover {
+    cursor: pointer;
+}
 
 .AppContainer {
     /* background-color: brown; */

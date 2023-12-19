@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="scripts/script.js" defer></script>
+        <script src="scripts/script.js"></script>
         <title>Symphony</title>
         <link rel="stylesheet" href="styles/style.css">
         
     </head>
-    <body>
+    <body onload="ShowNowPlaying()">
         <div class="AppContainer">
             <div class="Nav Bar">
                 <p>Symphony</p>
@@ -121,7 +121,7 @@
                 <a href=""> <img src="assets/TabBarIcons/group.png" >    </a>
                 <a href=""> <img src="assets/TabBarIcons/musical.png" >  </a>
                 <a href=""> <img src="assets/TabBarIcons/playlist.png" > </a>
-                <div id="NowPlayingButton"><img src="assets/TabBarIcons/play.png" ></div>
+                <div onclick="ShowNowPlaying()"><img src="assets/TabBarIcons/play.png" ></div>
             </div>
         </div>
     </body>
