@@ -36,6 +36,7 @@
     }
 }
 
+/* elements default styles */
 
 body {
     background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%);
@@ -45,6 +46,11 @@ body {
     overflow: hidden;
     margin: 0px;
     padding: 0px;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -78,7 +84,21 @@ button {
     min-width: 120px;
 }
 
+.Container {
+    max-width: 1318px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.AppContainer {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* styles for navbar and tabbar */
+
 .Bar{
+    /* background-color: rgba(250, 235, 215, 0.685);  */
     background-color: antiquewhite;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -91,7 +111,7 @@ button {
 }
 
 .Bar.Nav{
-    font-size: 24px;
+    font-size: 20px;
     position: fixed;
     top: 0%;
     bottom: auto;
@@ -127,11 +147,7 @@ button {
     transform: scale(1.2);
 }
 
-.AppContainer {
-    /* background-color: brown; */
-    min-height: 100vh;
-    overflow: visible;
-}
+/* holds current queue of playing songs */
 
 .NowPlaying {
     display: none;
@@ -193,6 +209,48 @@ button {
     column-gap: 30px;
     padding-bottom: 15px;
 }
+
+/* hold the main contends of the app like landing page */
+
+.AppBody {
+    /* background-color: aqua; */
+    margin: 60px;
+    overflow: hidden;
+}
+
+/* Hero section of the app */
+
+section.Hero{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Container.HeroDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.HeroTextContainer {
+    /* background-color: #EEA8A7; */
+    max-width: 40%;
+}
+
+.HeroImageContainer {
+    /* background-color: #B6DDD8; */
+    max-width: 60%;
+}
+
+/* Top Playlist section */
+
+
+
+
+
+
+
 
 
 
