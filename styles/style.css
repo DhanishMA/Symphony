@@ -57,6 +57,7 @@ h2 {
     text-align: left;
     font-family: 'Space Grotesk';
     font-weight: 400;
+    font-size: 32px;
 
 }
 
@@ -165,6 +166,7 @@ button {
     padding: 15px;
 }
 
+
 .SlideOut{
     animation: slide-in 0.5s forwards;
 }
@@ -173,7 +175,12 @@ button {
     animation: slide-out 0.5s forwards;
 }
 
-.NowPlaying p {
+.NowPlaying h2{
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+p.NowPlaying {
     margin-top: 15px;
     font-size: 13px;
 }
@@ -243,7 +250,17 @@ section.Hero{
     max-width: 60%;
 }
 
-/* Top Playlist section */
+/* Playlist section */
+
+.CardContainer { 
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 60px;
+    justify-content: start;
+
+} 
+
 
 
 
