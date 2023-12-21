@@ -46,6 +46,7 @@ body {
     overflow: hidden;
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins';
 }
 
 section {
@@ -69,7 +70,6 @@ h1 {
 }
 
 p {
-    font-family: 'Poppins';
     font-weight: 400;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -232,6 +232,16 @@ section.Hero{
     margin-bottom: 60px;
 }
 
+.Hero h1 {
+    margin-bottom: 0px;
+}
+
+.Hero p {
+    width: 375px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
 .Container.HeroDiv{
     display: flex;
     flex-direction: row;
@@ -248,19 +258,51 @@ section.Hero{
 .HeroImageContainer {
     /* background-color: #B6DDD8; */
     max-width: 60%;
+    object-fit: cover;
 }
 
 /* Playlist section */
 
 .CardContainer { 
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 60px;
+    column-gap: 60px;
+    row-gap: 15px;
     justify-content: start;
-
 } 
 
+.Card {
+    z-index: -1;
+}
+
+.Card p {
+    margin: 7px;
+    font-size: 22px;
+}
+
+.Card div {
+    overflow: hidden;
+    border-radius: 12px;
+    height: 225px;
+    width: 225px;
+    position: relative
+}
+
+.CardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CardPlayIcon {
+    position: absolute;
+    width: 16%;
+    top: auto;
+    left: auto;
+    right: 5%;
+    bottom: 5%;
+}
 
 
 
