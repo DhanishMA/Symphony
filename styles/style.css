@@ -129,8 +129,8 @@ button {
 /* styles for navbar and tabbar */
 
 .Bar{
-    /* background-color: rgba(250, 235, 215, 0.685);  */
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.685); 
+    /* background-color: antiquewhite; */
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 60px;
@@ -295,7 +295,7 @@ p.NowPlaying {
 /* hold the main contends of the app like landing page */
 
 .AppBody {
-    /* background-color: aqua; */
+    background-color: aqua;
     margin: 60px;
     overflow: hidden;
 }
