@@ -115,6 +115,17 @@ button {
     overflow-y: scroll;
 }
 
+/* responsiveness for mobile phones */
+
+@media only screen and (max-width: 425px) {
+    h2 {
+        font-size: 22px;
+        /* font-weight: 400; */
+        /* margin-bottom: 5px; */
+        /* margin-top: 5px; */
+    }
+}
+
 /* styles for navbar and tabbar */
 
 .Bar{
@@ -196,12 +207,19 @@ button {
     }
 
     .Bar.Tab {
-        /* column-gap: 25px; */
         height: 16px;
     }
 
     .Bar.Tab img {
         height: 18px;
+    }
+}
+
+/* responsiveness for S mobile phones */
+
+@media only screen and (max-width: 320px) {
+    .Bar.Tab {
+        column-gap: 25px;
     }
 }
 
@@ -290,6 +308,14 @@ p.NowPlaying {
     }
 }
 
+/* responsiveness for mobile phones */
+
+@media only screen and (max-width: 425px) {
+    .AppBody {
+        margin: 15px;
+    }
+}
+
 /* Hero section of the app */
 
 section.Hero{
@@ -327,6 +353,7 @@ section.Hero{
     object-fit: cover;
 }
 
+
 /* responsiveness for tablets */
 
 @media only screen and (max-width: 768px) {
@@ -354,6 +381,23 @@ section.Hero{
         text-align: center;
         max-width: none;
     }
+}
+
+/* responsiveness for mobile phones */
+
+@media only screen and (max-width: 425px) {
+    .Hero h1 {
+        font-size: 42px;
+    }
+    
+    .Hero p {
+        font-size: 12px;
+    }
+
+    .HeroImageContainer img {
+        max-height: 250px;
+    }    
+
 }
  
 
@@ -413,15 +457,38 @@ section.Hero{
     }
 
     .CardContainer { 
-        /* margin-top: 30px; */
-        /* display: flex; */
-        /* flex-wrap: wrap; */
         column-gap: 30px;
         row-gap: 15px;
-        /* justify-content: start; */
     } 
 }
 
+/* responsiveness for mobile phones */
+
+@media only screen and (max-width: 425px) {
+    .Card div {
+        height: 100px;
+        width: 100px;
+    }
+
+    .Card p {
+        margin: 7px;
+        font-size: 16px;
+    }
+
+    .CardContainer { 
+        column-gap: 15px;
+        row-gap: 8px;
+    } 
+
+}
+
+/* responsiveness for S mobile phones */
+
+@media only screen and (max-width: 320px) {
+    .CardContainer {
+        justify-content: space-evenly;
+    }
+}
 
 
 
