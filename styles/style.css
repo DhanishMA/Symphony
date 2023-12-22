@@ -196,7 +196,7 @@ button {
     }
 
     .Bar.Tab {
-        column-gap: 25px;
+        /* column-gap: 25px; */
         height: 16px;
     }
 
