@@ -167,7 +167,7 @@ button {
     transform: scale(1.2);
 }
 
-/* resposiveness for tablets */
+/* responsiveness for tablets */
 
 @media only screen and (max-width: 768px) {
     .Bar{
@@ -177,6 +177,31 @@ button {
 
     .Bar.Tab {
         column-gap: 30px;
+    }
+}
+
+/* responsiveness for mobile phones */
+
+@media only screen and (max-width: 425px) {
+    .Bar{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .Bar.Nav {
+        font-size: 16px;
+        /* background-color: antiquewhite; */
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .Bar.Tab {
+        column-gap: 20px;
+        height: 16px;
+    }
+
+    .Bar.Tab img {
+        height: 18px;
     }
 }
 
@@ -257,14 +282,13 @@ p.NowPlaying {
     overflow: hidden;
 }
 
-/* resposiveness for tablets */
+/* responsiveness for tablets */
 
 @media only screen and (max-width: 768px) {
     .AppBody {
         margin: 30px;
     }
 }
-
 
 /* Hero section of the app */
 
@@ -303,7 +327,7 @@ section.Hero{
     object-fit: cover;
 }
 
-/* resposiveness for tablets */
+/* responsiveness for tablets */
 
 @media only screen and (max-width: 768px) {
 
@@ -376,7 +400,7 @@ section.Hero{
     bottom: 5%;
 }
 
-/* resposiveness for tablets */
+/* responsiveness for tablets */
 
 @media only screen and (max-width: 768px) {
     .Card div {
