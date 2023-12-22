@@ -167,6 +167,19 @@ button {
     transform: scale(1.2);
 }
 
+/* resposiveness for tablets */
+
+@media only screen and (max-width: 768px) {
+    .Bar{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .Bar.Tab {
+        column-gap: 30px;
+    }
+}
+
 /* holds current queue of playing songs */
 
 .NowPlaying {
@@ -244,6 +257,15 @@ p.NowPlaying {
     overflow: hidden;
 }
 
+/* resposiveness for tablets */
+
+@media only screen and (max-width: 768px) {
+    .AppBody {
+        margin: 30px;
+    }
+}
+
+
 /* Hero section of the app */
 
 section.Hero{
@@ -280,6 +302,36 @@ section.Hero{
     max-width: 60%;
     object-fit: cover;
 }
+
+/* resposiveness for tablets */
+
+@media only screen and (max-width: 768px) {
+
+    section.Hero{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .Container.HeroDiv{
+        flex-direction: column-reverse;
+    }
+
+    .HeroTextContainer {
+        padding-right: 0px; 
+        max-width: none;
+        text-align: center;
+    }
+    
+    .HeroImageContainer {
+        max-width: none;
+    }
+
+    .Hero p {
+        text-align: center;
+        max-width: none;
+    }
+}
+ 
 
 /* Playlist section */
 
@@ -322,6 +374,28 @@ section.Hero{
     left: auto;
     right: 5%;
     bottom: 5%;
+}
+
+/* resposiveness for tablets */
+
+@media only screen and (max-width: 768px) {
+    .Card div {
+        height: 150px;
+        width: 150px;
+    }
+
+    .Card p {
+        font-size: 20px;
+    }
+
+    .CardContainer { 
+        /* margin-top: 30px; */
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        column-gap: 30px;
+        row-gap: 15px;
+        /* justify-content: start; */
+    } 
 }
 
 
