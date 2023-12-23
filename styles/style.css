@@ -270,6 +270,27 @@ p.NowPlaying {
     padding-bottom: 15px;
 }
 
+/* responsiveness for tablets */
+
+@media only screen and (max-width: 768px) {
+    .NowPlaying {
+    height: 410px;
+    bottom: 10%;
+    width: 300px;
+    }
+}
+
+/* responsiveness for mobile phones */
+
+@media only screen and (max-width: 425px) {
+
+}
+
+/* responsiveness for S mobile phones */
+
+@media only screen and (max-width: 320px) {
+}
+
 /* hold the main contends of the app like landing page */
 
 .AppBody {
@@ -469,6 +490,7 @@ section.Hero{
         justify-content: space-evenly;
     }
 }
+
 
 
 
