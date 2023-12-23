@@ -112,6 +112,7 @@ button {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
 /* responsiveness for mobile phones */
