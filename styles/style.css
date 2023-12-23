@@ -297,6 +297,8 @@ p.NowPlaying {
 .AppBody {
     /* background-color: aqua; */
     /* margin: 60px; */
+    margin-left: 60px;
+    margin-right: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
     overflow: hidden;
