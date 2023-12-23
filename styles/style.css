@@ -209,12 +209,12 @@ button {
     filter: blur();
     border-radius: 12px;
     overflow: hidden;
-    height: 430px;
+    height: 480px;
     position: fixed;
     top: auto;
-    bottom: 15%;
+    bottom: 60px;
     left: auto;
-    right: 60px;
+    right: 30px;
     width: 320px;
     padding: 15px;
 }
@@ -235,7 +235,7 @@ button {
 
 p.NowPlaying {
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .PlayerControllerBackboard {
@@ -275,7 +275,7 @@ p.NowPlaying {
 @media only screen and (max-width: 768px) {
     .NowPlaying {
     height: 410px;
-    bottom: 10%;
+    /* bottom: 10%; */
     width: 300px;
     }
 }
