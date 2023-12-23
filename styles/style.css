@@ -67,6 +67,7 @@ body {
 section {
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -108,8 +109,7 @@ button {
 
 .AppContainer {
     height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -274,7 +274,7 @@ p.NowPlaying {
 /* hold the main contends of the app like landing page */
 
 .AppBody {
-    flex: 1;
+    /* flex: 1; */
     padding-left: 60px;
     padding-right: 60px;
     overflow-y: scroll;
