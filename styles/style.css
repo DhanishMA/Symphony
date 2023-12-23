@@ -295,8 +295,10 @@ p.NowPlaying {
 /* hold the main contends of the app like landing page */
 
 .AppBody {
-    background-color: aqua;
-    margin: 60px;
+    /* background-color: aqua; */
+    /* margin: 60px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
     overflow: hidden;
 }
 
