@@ -273,7 +273,7 @@ p.NowPlaying {
 /* hold the main contends of the app like landing page */
 
 .AppBody {
-    /* flex: 1; */
+    flex-shrink: 1;
     padding-left: 60px;
     padding-right: 60px;
     overflow-x: hidden;
@@ -395,6 +395,7 @@ section.Hero{
 
 .Card {
     z-index: -1;
+    align-self: flex-start;
 }
 
 .Card p {
