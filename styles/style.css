@@ -112,7 +112,6 @@ button {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
 }
 
 /* responsiveness for mobile phones */
@@ -277,9 +276,8 @@ p.NowPlaying {
     /* flex: 1; */
     padding-left: 60px;
     padding-right: 60px;
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 /* responsiveness for tablets */
