@@ -56,6 +56,7 @@
 /* elements default styles */
 
 body {
+    background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%);
     color: #25313C;
     overflow: hidden;
     margin: 0px;
@@ -108,6 +109,7 @@ button {
 .AppContainer {
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -142,9 +144,7 @@ button {
 
 .Bar.Tab{
     height: 24px;
-    width: 100%;
-    justify-content: center;
-    column-gap: 60px;
+    justify-content: space-between;
 }
 
 .Bar.Tab img{
@@ -168,10 +168,6 @@ button {
         padding-left: 30px;
         padding-right: 30px;
     }
-
-    .Bar.Tab {
-        column-gap: 30px;
-    }
 }
 
 /* responsiveness for mobile phones */
@@ -184,7 +180,6 @@ button {
 
     .Bar.Nav {
         font-size: 16px;
-        /* background-color: antiquewhite; */
         padding-top: 8px;
         padding-bottom: 8px;
     }
@@ -201,8 +196,9 @@ button {
 /* responsiveness for S mobile phones */
 
 @media only screen and (max-width: 320px) {
-    .Bar.Tab {
-        column-gap: 22px;
+    .Bar{
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
 
@@ -279,7 +275,6 @@ p.NowPlaying {
 
 .AppBody {
     flex: 1;
-    background-color: aqua;
     padding-left: 60px;
     padding-right: 60px;
     overflow-y: scroll;
@@ -301,6 +296,13 @@ p.NowPlaying {
     .AppBody {
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .AppBody{
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
 
@@ -329,13 +331,11 @@ section.Hero{
 }
 
 .HeroTextContainer {
-    /* background-color: #EEA8A7; */
     padding-right: 15px;
     max-width: 40%;
 }
 
 .HeroImageContainer {
-    /* background-color: #B6DDD8; */
     max-width: 60%;
     object-fit: cover;
 }
