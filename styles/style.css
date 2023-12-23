@@ -58,7 +58,7 @@
 /* elements default styles */
 
 body {
-    background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%);
+    background-color: #B6DDD8;
     color: #25313C;
     overflow: hidden;
     margin: 0px;
@@ -95,7 +95,7 @@ p {
 
 button {
     padding: 12px;
-    background-color: #B6DDD8;
+    background-color: #EEA8A7;
     font-family: 'Poppins';
     font-weight: 400;
     border-radius: 12px;
