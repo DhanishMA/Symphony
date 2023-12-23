@@ -57,6 +57,7 @@
 
 body {
     background: linear-gradient(90deg, #EEA8A7 50%, #B6DDD8 50%);
+    height: 100vh;
     color: #25313C;
     overflow: hidden;
     margin: 0px;
@@ -108,11 +109,10 @@ button {
 }
 
 .AppContainer {
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    overflow: hidden;
 }
 
 /* responsiveness for mobile phones */
@@ -274,7 +274,6 @@ p.NowPlaying {
 /* hold the main contends of the app like landing page */
 
 .AppBody {
-    flex-shrink: 1;
     padding-left: 60px;
     padding-right: 60px;
     overflow-x: hidden;
@@ -391,12 +390,11 @@ section.Hero{
     flex-wrap: wrap;
     column-gap: 60px;
     row-gap: 15px;
-    justify-content: start;
+    justify-content: center;
 } 
 
 .Card {
     z-index: -1;
-    align-self: flex-start;
 }
 
 .Card p {
