@@ -296,7 +296,9 @@ p.NowPlaying {
 
 .AppBody {
     background-color: aqua;
-    /* margin: 60px; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+
     margin-left: 60px;
     margin-right: 60px;
     padding-top: 60px;
@@ -325,8 +327,8 @@ p.NowPlaying {
 /* Hero section of the app */
 
 section.Hero{
-    /* margin-top: 60px; */
-    /* margin-bottom: 60px; */
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
 }
 
 .Hero h1 {
@@ -365,8 +367,8 @@ section.Hero{
 @media only screen and (max-width: 768px) {
 
     section.Hero{
-        margin-top: 30px;
-        margin-bottom: 15px;
+        /* margin-top: 30px;
+        margin-bottom: 15px; */
     }
 
     .Container.HeroDiv{
