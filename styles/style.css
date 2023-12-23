@@ -51,7 +51,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: antiquewhite;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 25px;
 }
 
@@ -260,7 +260,7 @@ button {
 }
 
 .SongList {
-    height: 80%;
+    height: 75%;
     overflow-y: scroll;
 }
 
@@ -315,6 +315,10 @@ button {
     .NowPlaying p {
         margin-top: 5px;
         font-size: 13px;
+    }
+
+    .SongList {
+        height: 80%;
     }
 }
 
