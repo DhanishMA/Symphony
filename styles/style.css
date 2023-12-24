@@ -403,7 +403,7 @@ section.Hero {
 @media only screen and (max-width: 768px) {
 
     section.Hero {
-        padding-top: unset;
+        padding-top: 30px;
     }
 
     .Container.HeroDiv {
